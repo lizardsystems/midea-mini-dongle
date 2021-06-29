@@ -1,6 +1,6 @@
 # Midea mini dongle
 
-![Midea mini dongle](images/dongle_with_case.jpg)
+![Midea mini dongle](images/dongle_with_case_preview.jpg)
 This is the Midea mini dongle - USB stick for air conditioners controlled by the Midea UART protocol.
 
 This repository contains a schematic and PCB layout for a Midea mini dongle.
