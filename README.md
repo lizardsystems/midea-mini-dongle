@@ -55,7 +55,7 @@ When ordering fully assembled (with ESP-12F and USB port) 10 pieces on [JLCPCB s
 
 ## Firmware
 
-You may use [simple config](esphome/simple.yaml) or write your own following by instructions on the ESPHome website.
+You may use [simple config](simple_config.yaml) or create your own one following the instructions on the ESPHome website.
 
 ### Flashing
 Please read flashing manual
