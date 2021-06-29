@@ -1,1 +1,1 @@
-# midea-ac-dongle
+# Midea mini dongle
