@@ -43,7 +43,7 @@ PCB is designed for [Gainta G1901 case](datasheets/case.pdf)
 
 When ordering fully assembled (with ESP-12F and USB port) 10 pieces on [jlcpcb site](https://jlcpcb.com/), the price per piece was  $5 USD (2021-05-15) 
 
-![JLCPCB Order](jlcpcb_order.png)
+![JLCPCB Order](images/jlcpcb_order.png)
 
 ## Resources
  - [midea_ac component for ESPHome](https://esphome.io/components/climate/midea_ac.html) 
