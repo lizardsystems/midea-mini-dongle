@@ -19,7 +19,7 @@ This is the schematic of Midea mini dongle
 Download pdf file [Schematic_midea-mini-dongle.pdf](Schematic_midea-mini-dongle.pdf)
 ## PCB 
 
-PCB dimensions: 
+Dimensions: 
  - Width x Height: 44x20mm
  - USB connector: +15mm 
  - Overall: 59x20mm
@@ -35,7 +35,7 @@ PCB dimensions:
 
 PCB is designed for [Gainta G1901 case](datasheets/case.pdf)
 
-### Ordering and manufacturing
+## Ordering and manufacturing
 
  - Gerber files: [Gerber_pcb-midea-mini-dongle-v1.3_2021-05-14.zip](jlcpcb/Gerber_pcb-midea-mini-dongle-v1.3_2021-05-14.zip)
  - BOM file: [BOM_pcb-midea-mini-dongle-v1.3_2021-05-14.csv](jlcpcb/BOM_pcb-midea-mini-dongle-v1.3_2021-05-14.csv)
@@ -44,6 +44,7 @@ PCB is designed for [Gainta G1901 case](datasheets/case.pdf)
 When ordering fully assembled (with ESP-12F and USB port) 10 pieces on [JLCPCB site](https://jlcpcb.com/), the price per piece was  $5 USD (2021-05-15) 
 
 ![JLCPCB Order](images/jlcpcb_order.png)
+
 
 ## Resources
  - [midea_ac component for ESPHome](https://esphome.io/components/climate/midea_ac.html) 
