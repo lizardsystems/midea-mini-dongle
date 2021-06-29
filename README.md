@@ -3,15 +3,16 @@ This repository contains a schematic and PCB layout for a Midea mini dongle.
 
 ### Some credits before start
 
-Thanks to [Sergey V. Dudanov](https://github.com/dudanov) who created an excelent [midea_ac](https://esphome.io/components/climate/midea_ac.html) component for ESPHome integrating midea-like aircondititioners with Home Assistant.
+Thanks to [Sergey V. Dudanov](https://github.com/dudanov) who created an excelent [midea_ac](https://esphome.io/components/climate/midea_ac.html) component for ESPHome that integrates midea-like aircondititioners with Home Assistant.
 
-Schematics are based on manufacturers datasheets but some component values come from [Adafruit Learning System](https://learn.adafruit.com/) so thanks to Adafruit for keeping there products open source.
+Schematics are based on manufacturers datasheets but some component values come from [Adafruit Learning System](https://learn.adafruit.com/) so thanks to Adafruit for keeping their products open source.
 
 ## Idea
 
-Small dongle with minimum components and fully assembled by PCB manufacturing service and standard case.
+Small dongle with minimum components and fully assembled by PCB manufacturing service in standard case.
 
 ## Schematic
+
 This is the schematic of Midea mini dongle
 
 ![Schematic](images/Schematic_midea-mini-dongle.png)
