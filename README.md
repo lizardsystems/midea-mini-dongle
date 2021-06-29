@@ -1,4 +1,8 @@
 # Midea mini dongle
+
+![Midea mini dongle](images/dongle_with_case.jpg)
+This is the Midea mini dongle - USB stick for air conditioners controlled by the Midea UART protocol.
+
 This repository contains a schematic and PCB layout for a Midea mini dongle.
 
 ### Some credits before start
@@ -46,6 +50,14 @@ When ordering fully assembled (with ESP-12F and USB port) 10 pieces on [JLCPCB s
 
 ![JLCPCB Order](images/jlcpcb_order.png)
 
+## Hardware
+
+## Firmware
+
+You may use [simple config](esphome/simple.yaml) or wite your own .
+
+### Flashing
+Please read flashing manual
 
 ## Resources
  - [midea_ac component for ESPHome](https://esphome.io/components/climate/midea_ac.html) 
