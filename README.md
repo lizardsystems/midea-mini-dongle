@@ -1,17 +1,22 @@
 # Midea mini dongle
+
+![Midea mini dongle](images/dongle_with_case.jpg)
+This is the Midea mini dongle - USB stick for air conditioners controlled by the Midea UART protocol.
+
 This repository contains a schematic and PCB layout for a Midea mini dongle.
 
 ### Some credits before start
 
-Thanks to [Sergey V. Dudanov](https://github.com/dudanov) who is created an excelent [midea_ac](https://esphome.io/components/climate/midea_ac.html) component for ESPHome integrating midea-like aircondititioners with Home Assistant.
+Thanks to [Sergey V. Dudanov](https://github.com/dudanov) who created an excelent [midea_ac](https://esphome.io/components/climate/midea_ac.html) component for ESPHome that integrates midea-like aircondititioners with Home Assistant.
 
-Schematics are based on manufacturers datasheets but some component values come from [Adafruit Learning System](https://learn.adafruit.com/) so thanks to Adafruit for keeping there products open source.
+Schematics are based on manufacturers datasheets but some component values come from [Adafruit Learning System](https://learn.adafruit.com/) so thanks to Adafruit for keeping their products open source.
 
 ## Idea
 
-Small dongle with minimum components and fully assembled by PCB manufacturing service and standard case.
+Small dongle with minimum components and fully assembled by PCB manufacturing service in standard case.
 
 ## Schematic
+
 This is the schematic of Midea mini dongle
 
 ![Schematic](images/Schematic_midea-mini-dongle.png)
@@ -19,7 +24,7 @@ This is the schematic of Midea mini dongle
 Download pdf file [Schematic_midea-mini-dongle.pdf](Schematic_midea-mini-dongle.pdf)
 ## PCB 
 
-PCB dimensions: 
+Dimensions: 
  - Width x Height: 44x20mm
  - USB connector: +15mm 
  - Overall: 59x20mm
@@ -35,15 +40,24 @@ PCB dimensions:
 
 PCB is designed for [Gainta G1901 case](datasheets/case.pdf)
 
-### Ordering and manufacturing
+## Ordering and manufacturing
 
  - Gerber files: [Gerber_pcb-midea-mini-dongle-v1.3_2021-05-14.zip](jlcpcb/Gerber_pcb-midea-mini-dongle-v1.3_2021-05-14.zip)
  - BOM file: [BOM_pcb-midea-mini-dongle-v1.3_2021-05-14.csv](jlcpcb/BOM_pcb-midea-mini-dongle-v1.3_2021-05-14.csv)
  - CPL file: [PickAndPlace_pcb-midea-mini-dongle-v1.3_2021-05-14.csv](jlcpcb/PickAndPlace_pcb-midea-mini-dongle-v1.3_2021-05-14.csv)
 
-When ordering fully assembled (with ESP-12F and USB port) 10 pieces on [jlcpcb site](https://jlcpcb.com/), the price per piece was  $5 USD (2021-05-15) 
+When ordering fully assembled (with ESP-12F and USB port) 10 pieces on [JLCPCB site](https://jlcpcb.com/), the price per piece was  $5 USD (2021-05-15) 
 
-![JLCPCB Order](jlcpcb_order.png)
+![JLCPCB Order](images/jlcpcb_order.png)
+
+## Hardware
+
+## Firmware
+
+You may use [simple config](esphome/simple.yaml) or wite your own .
+
+### Flashing
+Please read flashing manual
 
 ## Resources
  - [midea_ac component for ESPHome](https://esphome.io/components/climate/midea_ac.html) 
