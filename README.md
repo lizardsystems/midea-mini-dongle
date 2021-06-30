@@ -16,6 +16,15 @@ Schematics are based on manufacturers datasheets but some component values come 
 
 Small dongle with minimum components and fully assembled by PCB manufacturing service in standard case.
 
+### Prototyping
+
+![Prototype 1](images/prototype_1.jpg) ![Prototype 2](images/prototype_2.jpg)
+
+Make a prototypes with a ready modules and found that midea_ac is very usefull and have stable result. 
+
+
+If you want to make your own with cheap modules please read [this](PROTOTYPING.md).  
+
 ## Schematic
 
 This is the schematic of Midea mini dongle
