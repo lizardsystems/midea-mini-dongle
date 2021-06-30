@@ -41,6 +41,8 @@ Dimensions:
 
 PCB is designed for [Gainta G1901 case](datasheets/case.pdf)
 
+![Case](images/case_preview.jpg)
+
 ## Ordering and manufacturing
 
  - Gerber files: [Gerber_pcb-midea-mini-dongle-v1.3_2021-05-14.zip](jlcpcb/Gerber_pcb-midea-mini-dongle-v1.3_2021-05-14.zip)
