@@ -57,9 +57,7 @@ Dongles manufactured and fully assembled by JLCPCB
 
 PCB and the case 
 
-![Dongle and case](images/dongle_and_case_preview.jpg)
-
-![Midea mini dongle](images/dongle_with_case_preview.jpg)
+![Dongle and case](images/dongle_and_case_preview.jpg) ![Midea mini dongle](images/dongle_with_case_preview.jpg)
 
 ## Firmware
 
