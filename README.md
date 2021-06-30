@@ -47,15 +47,11 @@ PCB is designed for [Gainta G1901 case](datasheets/case.pdf)
  - BOM file: [BOM_pcb-midea-mini-dongle-v1.3_2021-05-14.csv](jlcpcb/BOM_pcb-midea-mini-dongle-v1.3_2021-05-14.csv)
  - CPL file: [PickAndPlace_pcb-midea-mini-dongle-v1.3_2021-05-14.csv](jlcpcb/PickAndPlace_pcb-midea-mini-dongle-v1.3_2021-05-14.csv)
 
-When ordering fully assembled (with ESP-12F and USB port) 10 pieces on [JLCPCB site](https://jlcpcb.com/), the price per piece was  $5 USD (2021-05-15) 
-
-![JLCPCB Order](images/jlcpcb_order.png)
-
 ## Hardware
 
 ## Firmware
 
-You may use [simple config](midea_ac.yaml) or create your own one following the instructions on the ESPHome website.
+You may use [simple config](midea_ac.yaml) or create your own one following the instructions on the [ESPHome website](https://esphome.io/components/climate/midea_ac.html).
 
 ### Flashing
 Please read flashing manual
