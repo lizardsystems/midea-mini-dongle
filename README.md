@@ -68,7 +68,7 @@ You may use [simple config](midea_ac.yaml) or create your own one following the 
 ### Flashing
 Please read flashing manual
 
-### Installing
+## Installing
 
 
 ## Resources
