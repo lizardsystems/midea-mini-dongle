@@ -56,6 +56,9 @@ You may use [simple config](midea_ac.yaml) or create your own one following the 
 ### Flashing
 Please read flashing manual
 
+### Installing
+
+
 ## Resources
  - [midea_ac component for ESPHome](https://esphome.io/components/climate/midea_ac.html) 
  - [midea-open-dongle](https://github.com/dudanov/midea-open-dongle)
