@@ -66,10 +66,16 @@ PCB and the case
 You may use [simple config](midea_ac.yaml) or create your own one following the instructions on the [ESPHome website](https://esphome.io/components/climate/midea_ac.html).
 
 ### Flashing
-Please read flashing manual
+Please read [flashing manual](FLASHING.md)
 
 ## Installing
 
+![Installing](images/dongle_with_case_installed_preview.jpg)
+![Wifi](images/ac_signal.jpg)
+
+### Dashboard
+
+![Dashboard](images/dashboard_home_assistant_preview.png)
 
 ## Resources
  - [midea_ac component for ESPHome](https://esphome.io/components/climate/midea_ac.html) 
