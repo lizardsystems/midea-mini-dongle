@@ -41,7 +41,7 @@ Dimensions:
 
 PCB is designed for [Gainta G1901 case](datasheets/case.pdf)
 
-!(Case)[images/case_preview.jpg]
+![Case](images/case_preview.jpg)
 
 ## Ordering and manufacturing
 
