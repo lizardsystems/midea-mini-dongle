@@ -18,7 +18,7 @@ Small dongle with minimum components and fully assembled by PCB manufacturing se
 
 ### Prototyping
 
-![Prototype 1](images/prototype_1.jpg) ![Prototype 2](images/prototype_2.jpg)
+![Prototype 1](images/prototype_1_preview.jpg) ![Prototype 2](images/prototype_2_preview.jpg)
 
 Make a prototypes with a ready modules and found that midea_ac is very usefull and have stable result. 
 
