@@ -51,6 +51,16 @@ PCB is designed for [Gainta G1901 case](datasheets/case.pdf)
 
 ## Hardware
 
+Dongles manufactured and fully assembled by JLCPCB
+
+![Dongles](images/dongles_ready_preview.jpg)
+
+PCB and the case 
+
+![Dongle and case](images/dongle_and_case_preview.jpg)
+
+![Midea mini dongle](images/dongle_with_case_preview.jpg)
+
 ## Firmware
 
 You may use [simple config](midea_ac.yaml) or create your own one following the instructions on the [ESPHome website](https://esphome.io/components/climate/midea_ac.html).
