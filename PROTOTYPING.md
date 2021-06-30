@@ -8,5 +8,3 @@
 ![](images/prototype_2_preview.jpg)
 ![](images/prototype_2_1_preview.jpg)
 ![](images/prototype_2_2_preview.jpg)
-![](images/prototype_2_3_preview.jpg)
-![](images/prototype_2_4_preview.jpg)
