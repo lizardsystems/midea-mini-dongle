@@ -38,6 +38,10 @@ When finished writing the firmware the ESP switch off dongle
 
 ### Flashing Over-The-Air (OTA)
 
+Select a new firmware file and click on Update button
+
+![image](https://user-images.githubusercontent.com/4923679/124578267-b929a500-de56-11eb-9241-e5beb5762944.png)
+
 
 ## Connecting dongle to Wi-Fi network
 
