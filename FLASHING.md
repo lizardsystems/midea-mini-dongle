@@ -32,9 +32,11 @@ Click Flash ESP and wait
 
 The dongle will be flashed now, you can follow the progress in the console window. 
 
-When finished writing the firmware the ESP switch off dongle
+When finished writing the firmware, switch off dongle
 
 ## Connecting dongle to Wi-Fi network
+
+When you are using ready-to-use firmware, at the first start, the dongle will create its own network "Midea AC Fallback Hotspot". 
 
 ![image](https://user-images.githubusercontent.com/4923679/124567170-6fd45800-de4c-11eb-99d1-a14ab3e08ae6.png)
 
