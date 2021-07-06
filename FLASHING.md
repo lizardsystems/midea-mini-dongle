@@ -38,7 +38,9 @@ When finished writing the firmware the ESP switch off dongle
 
 ### Flashing Over-The-Air (OTA)
 
-Select a new firmware file and click on Update button
+You may upload a new firmare over the air using commnad line [command line](https://esphome.io/guides/cli.html?highlight=command%20line#upload-command) or upload via web interface.
+
+For uploading firmware via web interface, open the dongle address (IP ro DNS) in web browser.  Select a new firmware file and click the Update button
 
 ![image](https://user-images.githubusercontent.com/4923679/124578267-b929a500-de56-11eb-9241-e5beb5762944.png)
 
