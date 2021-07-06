@@ -23,7 +23,7 @@ Download firmware [midea_ac.bin](midea_ac.bin) from this repository.
 
 ### Variant 2
 
-![variant 2](/images/flash-1.png)
+![variant 2](/images/flash-2.png)
 
 ## Flash dongle with compiled firmware
 
