@@ -3,13 +3,15 @@
 
 ## Firmware
 
-You may compile your own firmaware or download ready to use firmware.
+You may create your own firmaware or download ready to use firmware.
 
-### Make your own firmware
+### Create your own firmware
+
+Please read [Getting Started with ESPHome and Home Assistant](https://esphome.io/guides/getting_started_hassio.html)
 
 ### Download ready to use firmware
 
-Download firmware midea_ac.bin from repository.
+Download firmware [midea_ac.bin](midea_ac.bin) from repository.
 
 ## Connect dongle to computer
 
