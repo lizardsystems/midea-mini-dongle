@@ -51,13 +51,13 @@ When you are using ready-to-use firmware, at the first start, the dongle will cr
 
 Type password for Fallback Hotspot. Default: midea_ac_1234!@#$
 
-When you connect to the fallback network, the web interface should open automatically (see also login to network notifications). If that does not work, you can also navigate to http://192.168.4.1/ manually in your browser.
+When you are connecting to the fallback network, the web interface should open automatically (see also login to network notifications). If it doesn't open, you may also navigate to http://192.168.4.1/ manually in your browser.
 
 ![image](https://user-images.githubusercontent.com/4923679/124567130-61863c00-de4c-11eb-86be-49ea9a270f94.png)
 
-In this web interface, you can manually override the WiFi settings.
+In this web interface, you may manually override the WiFi settings.
 
-Additionally, you can upload a new firmware file.
+Additionally, you may upload a new firmware file.
 
 ## See also
  - https://esphome.io/guides/getting_started_hassio.html
