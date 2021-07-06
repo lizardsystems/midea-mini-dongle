@@ -20,8 +20,6 @@ Download firmware [midea_ac.bin](midea_ac.bin) from this repository.
 
 ## Flash dongle with compiled firmware
 
-### First time flashing 
-
 Download flasher https://github.com/esphome/esphome-flasher/releases
 
 Open the flasher tool
@@ -35,15 +33,6 @@ Click Flash ESP and wait
 The dongle will be flashed now, you can follow the progress in the console window. 
 
 When finished writing the firmware the ESP switch off dongle
-
-### Flashing Over-The-Air (OTA)
-
-You may upload a new firmare over the air using commnad line [command line](https://esphome.io/guides/cli.html?highlight=command%20line#upload-command) or upload via web interface.
-
-For uploading firmware via web interface, open the dongle address (IP ro DNS) in web browser.  Select a new firmware file and click the Update button
-
-![image](https://user-images.githubusercontent.com/4923679/124578267-b929a500-de56-11eb-9241-e5beb5762944.png)
-
 
 ## Connecting dongle to Wi-Fi network
 
