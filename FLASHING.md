@@ -1,1 +1,52 @@
 
+# Flash dongle with ESPHome firmware
+
+## Firmware
+
+You may compile your own firmaware or download ready to use firmware.
+
+### Make your own firmware
+
+### Download ready to use firmware
+
+Download firmware midea_ac.bin from repository.
+
+## Connect dongle to computer
+
+
+## Flash dongle with compiled firmware
+
+### First time flashing 
+
+Download flasher https://github.com/esphome/esphome-flasher/releases
+
+Open the flasher tool
+ - Serial port: select COM port where the dongle is connected (there is probably only one option).
+ - Firmware: Browse to the location where you downloaded your compiled firmware and select your firmware.
+ 
+![image](https://user-images.githubusercontent.com/4923679/124561924-16b5f580-de47-11eb-88de-41583f74d1a0.png)
+
+Click Flash ESP and wait
+
+The dongle will be flashed now, you can follow the progress in the console window. 
+
+When finished writing the firmware the ESP switch off dongle
+
+### Flashing Over-The-Air (OTA)
+
+## Connecting dongle to Wi-Fi network
+
+
+![image](https://user-images.githubusercontent.com/4923679/124567170-6fd45800-de4c-11eb-99d1-a14ab3e08ae6.png)
+
+![image](https://user-images.githubusercontent.com/4923679/124567285-87abdc00-de4c-11eb-9a4b-9f6d1bf76c4f.png)
+
+Type password for Fallback Hotspot. Default: midea_ac_1234!@#$
+
+http://192.168.4.1/
+
+![image](https://user-images.githubusercontent.com/4923679/124567130-61863c00-de4c-11eb-86be-49ea9a270f94.png)
+
+
+## See also
+ - https://esphome.io/guides/getting_started_hassio.html
