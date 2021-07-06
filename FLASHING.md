@@ -17,6 +17,13 @@ Download firmware [midea_ac.bin](midea_ac.bin) from this repository.
 
 ## Connect dongle to computer
 
+### Variant 1
+
+![varinat 1](/images/flash-1.png)
+
+### Variant 2
+
+![varinat 1](/images/flash-1.png)
 
 ## Flash dongle with compiled firmware
 
