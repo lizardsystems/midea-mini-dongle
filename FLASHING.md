@@ -9,7 +9,7 @@ You may create your own firmaware or download ready to use firmware.
 
 Please read [Getting Started with ESPHome](https://esphome.io/guides/getting_started_command_line.html) and [Getting Started with ESPHome and Home Assistant](https://esphome.io/guides/getting_started_hassio.html)
 
-Compile the firmware.
+Crate and compile a firmware.
 
 ### Download ready to use firmware
 
