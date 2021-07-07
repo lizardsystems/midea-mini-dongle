@@ -51,6 +51,14 @@ climate:
       max_temperature: 25 °C
       temperature_step: 0.1 °C
     beeper: true
+    custom_fan_modes:
+      - SILENT
+      - TURBO
+    preset_eco: true
+    preset_sleep: true
+    preset_boost: true
+    custom_presets:
+      - FREEZE_PROTECTION
     power_usage:
       name: "${friendly_node_name} Power Usage"
       id: ${node_name}_power_usage
