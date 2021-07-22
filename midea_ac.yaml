@@ -18,7 +18,6 @@ wifi:
   fast_connect: true
   power_save_mode: none
   ap:
-    ssid: "${friendly_node_name} Fallback Hotspot" 
     password: !secret backup_ap_password 
 
 captive_portal:
