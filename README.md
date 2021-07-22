@@ -81,7 +81,8 @@ Please read [flashing manual](FLASHING.md)
 
 ### Dashboard
 
-![Dashboard](images/dashboard_home_assistant_preview.png)
+![Dashboard](https://user-images.githubusercontent.com/4923679/125163067-fca44c00-e193-11eb-88cf-c1cd573a685c.png)
+
 
 ## Resources
  - [midea_ac component for ESPHome](https://esphome.io/components/climate/midea_ac.html) 
