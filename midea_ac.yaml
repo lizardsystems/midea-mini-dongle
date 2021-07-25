@@ -46,13 +46,13 @@ climate:
   - platform: midea_ac
     name: ${friendly_node_name}
     visual:
-      min_temperature: 18 °C
-      max_temperature: 25 °C
-      temperature_step: 0.1 °C
+      min_temperature: 17 °C
+      max_temperature: 30 °C
+      temperature_step: 0.5 °C
     beeper: true
-    custom_fan_modes:
-      - SILENT
-      - TURBO
+    #custom_fan_modes:
+    #  - SILENT
+    #  - TURBO
     preset_eco: true
     preset_sleep: true
     preset_boost: true
