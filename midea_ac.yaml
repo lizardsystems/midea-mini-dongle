@@ -36,27 +36,121 @@ uart:
   rx_pin: 3
   baud_rate: 9600
 
-midea_dongle:
-  strength_icon: true
-  
 climate:
-  - platform: midea_ac
-    name: ${friendly_node_name} Climate
+  - platform: midea
+    name: ${friendly_node_name} Climate         # Use a unique name.
     id: ${node_id}_climate
-    visual:
-      min_temperature: 17 °C
-      max_temperature: 30 °C
-      temperature_step: 0.5 °C
-    beeper: true
-    preset_eco: true
-    preset_sleep: true
-    preset_boost: true
-    custom_presets:
+    period: 1s                  # Optional
+    timeout: 2s                 # Optional
+    num_attempts: 3             # Optional
+    autoconf: true              # Autoconfigure most options.
+    beeper: true                # Beep on commands.
+    visual:                     # Optional. Example of visual settings override.
+      min_temperature: 17 °C    # min: 17
+      max_temperature: 30 °C    # max: 30
+      temperature_step: 0.5 °C  # min: 0.5
+    supported_modes:            # All capabilities in this section detected by autoconf.
+      - FAN_ONLY                # This capability is always used.
+      - HEAT_COOL
+      - COOL
+      - HEAT
+      - DRY
+    custom_fan_modes:
+      - SILENT
+      - TURBO
+    supported_presets:          # All capabilities in this section detected by autoconf.
+      - ECO
+      - BOOST
+      - SLEEP                   # This capability is always used.
+    custom_presets:             # All capabilities in this section detected by autoconf.
       - FREEZE_PROTECTION
-    power_usage:
-      name: "${friendly_node_name} Power Usage"
+    supported_swing_modes:
+      - VERTICAL                # This capability is always used.
+      - HORIZONTAL
+      - BOTH
+    power_usage:                # Optional. Outdoor temperature sensor (may display incorrect values after long inactivity).
+      name: "${friendly_node_name} Power Usage" 
       id: ${node_id}_power_usage
-    outdoor_temperature:
+    outdoor_temperature:        # Optional. Power usage sensor (only for devices that support this feature).
       name: "${friendly_node_name} Outdoor Temperature"
       id: ${node_id}_outdoor_temperature
+    humidity_setpoint:          # Optional. Indoor humidity sensor (only for devices that support this feature).
+      name: "${friendly_node_name} Humidity"
+  
+switch:
+  - platform: template
+    name: Beeper
+    icon: mdi:volume-source
+    optimistic: true
+    turn_on_action:
+      midea_ac.beeper_on:
+    turn_off_action:
+      midea_ac.beeper_off:
+      
+binary_sensor:
+  - platform: status
+    name: ${friendly_node_name} Connection Status
+    id: ${node_id}_connection_status
 
+text_sensor:
+  - platform: template
+    name: Uptime Human Readable
+    id: uptime_human
+    icon: mdi:clock-start
+
+  - platform: version
+    name: ${friendly_node_name} ESPHome Version
+    id: ${node_id}_esphome_version    
+
+  - platform: wifi_info
+    ip_address:
+      name: ${friendly_node_name} IP Address
+      id: ${node_id}_ip_address
+      icon: mdi:ip-network
+
+sensor:
+  - platform: uptime
+    name: Uptime Sensor
+    id: uptime_sensor
+    update_interval: 60s
+    on_raw_value:
+      then:
+        - text_sensor.template.publish:
+            id: uptime_human
+            state: !lambda |-
+              int seconds = round(id(uptime_sensor).raw_state);
+              int days = seconds / (24 * 3600);
+              seconds = seconds % (24 * 3600);
+              int hours = seconds / 3600;
+              seconds = seconds % 3600;
+              int minutes = seconds /  60;
+              seconds = seconds % 60;
+              return (
+                (days ? to_string(days) + "d " : "") +
+                (hours ? to_string(hours) + "h " : "") +
+                (minutes ? to_string(minutes) + "m " : "") +
+                (to_string(seconds) + "s")
+              ).c_str();
+
+  - platform: wifi_signal
+    name: ${friendly_node_name} WiFi Signal
+    id: ${node_id}_wifi_signal
+    update_interval: 60s
+
+button:
+  - platform: restart
+    name: ${friendly_node_name} Restart
+    id: ${node_id}_restart
+    icon: "mdi:restart"
+  - platform: shutdown
+    name: ${friendly_node_name} Shutdown
+    id: ${node_id}_shutdown
+  - platform: safe_mode
+    name: ${friendly_node_name} Restart (Safe Mode)"
+    id: ${node_id}_safe_mode
+  - platform: template
+    name: ${friendly_node_name} Display Toggle
+    id: ${node_id}_display_toggle
+    icon: mdi:theme-light-dark
+    on_press:
+      midea_ac.display_toggle:
