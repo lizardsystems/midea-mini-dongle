@@ -44,7 +44,6 @@ climate:
     timeout: 2s                 # Optional
     num_attempts: 3             # Optional
     autoconf: true              # Autoconfigure most options.
-    beeper: true                # Beep on commands.
     visual:                     # Optional. Example of visual settings override.
       min_temperature: 17 °C    # min: 17
       max_temperature: 30 °C    # max: 30
@@ -79,8 +78,9 @@ climate:
   
 switch:
   - platform: template
-    name: Beeper
+    name: ${friendly_node_name} Beeper
     icon: mdi:volume-source
+    restore_state: true
     optimistic: true
     turn_on_action:
       midea_ac.beeper_on:
