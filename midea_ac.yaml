@@ -19,6 +19,9 @@ wifi:
 
 captive_portal:
 
+dashboard_import:
+  package_import_url: github://lizardsystems/midea-mini-dongle/edit/main/midea_ac.yaml
+
 logger:
   baud_rate: 0
   level: ERROR
