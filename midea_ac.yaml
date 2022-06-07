@@ -151,9 +151,3 @@ button:
   - platform: safe_mode
     name: ${friendly_node_name} Restart (Safe Mode)"
     id: ${node_id}_safe_mode
-  - platform: template
-    name: ${friendly_node_name} Display Toggle
-    id: ${node_id}_display_toggle
-    icon: mdi:theme-light-dark
-    on_press:
-      midea_ac.display_toggle:
